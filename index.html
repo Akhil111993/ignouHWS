@@ -2,7 +2,7 @@
     <head>
         <title>Ignou homeworks</title>
     </head>
-    <body>
+    <body  onload="myFunction()">
         <h1>
             Ignou homeworks MCAOL G1 G2 Lab1
         </h1>
@@ -42,7 +42,12 @@
         
         <script>
         function myFunction() {
-          ChannelName.postMessage("success");
+            setTimeout(function () {
+      
+            ChannelName.postMessage("success");
+        
+    }, 5000);
+          
         }
         </script>
 
